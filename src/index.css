@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+::-webkit-scrollbar {
+    width: 0.7rem; /* Utiliza el ancho personalizado definido en Tailwind CSS */
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #888; /* Color de la barra de desplazamiento */
+    border-radius: 6px; /* Borde redondeado de la barra de desplazamiento */
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; /* Cambio de color al pasar el mouse por encima */
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; /* Color del área de fondo de la barra de desplazamiento */
+  }
+  
+  
+  .scroll-smooth {
+    scroll-behavior: smooth;
+  }
